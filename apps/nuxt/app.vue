@@ -20,9 +20,9 @@ async function fetch(route: string, method: HTTPMethod = 'GET') {
     Fetch result: {{ fetchResult }}
   </div>
   <div>
-    <button @click="fetch('/items', 'PATCH')">PATCH /items/:id</button>
-    <button @click="fetch('/products')">GET /products/:id</button>
-    <button @click="fetch('/products', 'PATCH')">PATCH /products/:id</button>
+    <button @click="fetch('/items', 'PATCH')">PATCH /items</button>
+    <button @click="fetch('/products')">GET /products</button>
+    <button @click="fetch('/products', 'PATCH')">PATCH /products</button>
   </div>
 </template>
 
